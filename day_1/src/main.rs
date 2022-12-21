@@ -20,10 +20,6 @@ fn main() {
         elf_calorie_sum.push(cal_counter);
     }
 
-    let max_index = elf_calorie_sum.iter()
-        .enumerate()
-        .max_by_key(|(_, &x)| x)
-        .unwrap()
-        .0 + 1;
-    println!("{:?}", max_index);
+    let max_val = elf_calorie_sum.iter().max().unwrap();
+    println!("{:?}", max_val);
 }
