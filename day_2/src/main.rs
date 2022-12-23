@@ -64,8 +64,7 @@ fn calculate_round_score(round: &str) -> u32 {
         || ((you == YourHand::Scissors) && (them == TheirHand::Paper))
     {
         score += 6
-    } else if format!("{:?}", you) == format!("{:?}", them)
-    {
+    } else if format!("{:?}", you) == format!("{:?}", them) {
         score += 3
     }
 
@@ -76,7 +75,7 @@ fn calculate_round_score(round: &str) -> u32 {
 enum DesiredResult {
     WIN,
     LOSE,
-    DRAW
+    DRAW,
 }
 
 impl FromStr for DesiredResult {
@@ -108,31 +107,27 @@ fn calculate_correct_round_score(round: &str) -> u32 {
 
     if result == DesiredResult::DRAW {
         hand_score = match them {
-                TheirHand::Rock => 1,
-                TheirHand::Paper => 2,
-                TheirHand::Scissors => 3,
-            }
-    }
-    else if result == DesiredResult::WIN {
+            TheirHand::Rock => 1,
+            TheirHand::Paper => 2,
+            TheirHand::Scissors => 3,
+        }
+    } else if result == DesiredResult::WIN {
         hand_score = match them {
-                TheirHand::Rock => 2,
-                TheirHand::Paper => 3,
-                TheirHand::Scissors => 1,
-            }
-    }
-    else if result == DesiredResult::LOSE {
+            TheirHand::Rock => 2,
+            TheirHand::Paper => 3,
+            TheirHand::Scissors => 1,
+        }
+    } else if result == DesiredResult::LOSE {
         hand_score = match them {
-                TheirHand::Rock => 3,
-                TheirHand::Paper => 1,
-                TheirHand::Scissors => 2,
-            }
+            TheirHand::Rock => 3,
+            TheirHand::Paper => 1,
+            TheirHand::Scissors => 2,
+        }
     }
-
 
     score += hand_score;
     score
 }
-
 
 fn main() {
     let contents = get_data();

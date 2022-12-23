@@ -27,17 +27,17 @@ fn find_complete_overlaps(elves: ((u32, u32), (u32, u32))) -> bool {
 }
 
 fn find_partial_overlap(elves: ((u32, u32), (u32, u32))) -> bool {
-    let (
-        (first_elf_start, first_elf_end),
-        (second_elf_start, second_elf_end)
-    ) = ((elves.0.0 as i32, elves.0.1 as i32), (elves.1.0 as i32, elves.1.1 as i32));
+    let ((first_elf_start, first_elf_end), (second_elf_start, second_elf_end)) = (
+        (elves.0 .0 as i32, elves.0 .1 as i32),
+        (elves.1 .0 as i32, elves.1 .1 as i32),
+    );
 
     let response = match first_elf_start.check_range(second_elf_start..=second_elf_end) {
         Ok(_) => true,
-        Err(_) => false
+        Err(_) => false,
     } || match second_elf_start.check_range(first_elf_start..=first_elf_end) {
         Ok(_) => true,
-        Err(_) => false
+        Err(_) => false,
     };
     response
 }
@@ -71,7 +71,6 @@ fn main() {
         if partially_contained {
             partially_contained_counter += 1;
         }
-
     }
     println!("Solution to part 1: {:?}", fully_contained_counter);
     println!("Solution to part 2: {:?}", partially_contained_counter);
