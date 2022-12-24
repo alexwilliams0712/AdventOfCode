@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/day_1/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/day_2/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/day_3/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/day_4/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/day_5/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/day_6/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/day_7/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a0047e76-68a6-4111-9589-ab877cdf8ec8" name="Changes" comment="Update readme">
+      <change afterPath="$PROJECT_DIR$/day_7/src/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_7/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/day_7/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_7/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/day_7/src/main.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="zqwiu45g" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JDoFtIL6Lv7vRJiNA1QlUiD5us" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TF_FMT": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/alexwilliams/CODE/git/AlexWilliams/AdventOfCode/day_7/Cargo.toml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day_2/src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command" nameIsGenerated="true">
+      <option name="command" value="run" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/day_7" />
+      <option name="channel" value="STABLE" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="true" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="run" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/day_1" />
+      <option name="channel" value="STABLE" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="true" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0047e76-68a6-4111-9589-ab877cdf8ec8" name="Changes" comment="" />
+      <created>1671621915117</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671621915117</updated>
+      <workItem from="1671621917256" duration="229000" />
+      <workItem from="1671622157690" duration="39338000" />
+      <workItem from="1671792056945" duration="44578000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit&#10;Day 1 complete">
+      <created>1671626423072</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671626423072</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Find value ratherr than index">
+      <created>1671626786702</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671626786702</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Complete up to day 4">
+      <created>1671671100702</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671671100702</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Complete up to day 6">
+      <created>1671822375361</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671822375361</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Complete up to day 6">
+      <created>1671822705031</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671822705031</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update readme">
+      <created>1671822816030</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671822816030</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update readme">
+      <created>1671823071128</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671823071128</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit&#10;Day 1 complete" />
+    <MESSAGE value="Find value ratherr than index" />
+    <MESSAGE value="Complete up to day 4" />
+    <MESSAGE value="Complete up to day 6" />
+    <MESSAGE value="Update readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update readme" />
+  </component>
+</project>
